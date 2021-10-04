@@ -1,0 +1,7 @@
+{
+  "name": "IonicFipe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

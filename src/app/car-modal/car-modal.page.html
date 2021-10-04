@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{car.Modelo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div>
+    <ion-label>Marca:</ion-label>
+    <span>{{car.Marca}}</span>
+  </div>
+
+  <div>
+    <ion-label>Modelo:</ion-label>
+    <span>{{car.Modelo}}</span>
+  </div>
+
+  <div>
+    <ion-label>Ano:</ion-label>
+    <span>{{car.AnoModelo}}</span>
+  </div>
+
+  <div>
+    <ion-label>Código fipe:</ion-label>
+    <span>{{car.CodigoFipe}}</span>
+  </div>
+
+  <div>
+    <ion-label>Combustível:</ion-label>
+    <span>{{car.Combustivel}}</span>
+  </div>
+
+  <div>
+    <ion-label>Mês de referência:</ion-label>
+    <span>{{car.MesReferencia}}</span>
+  </div>
+
+  <div>
+    <ion-label>Sigla do combustível:</ion-label>
+    <span>{{car.SiglaCombustivel}}</span>
+  </div>
+
+  <div>
+    <ion-label>Tipo de veículo:</ion-label>
+    <span>{{car.TipoVeiculo}}</span>
+  </div>
+
+  <div>
+    <ion-label>Valor:</ion-label>
+    <span>{{car.Valor}}</span>
+  </div>
+
+  <ion-button (click)="back()">Voltar</ion-button>
+</ion-content>
